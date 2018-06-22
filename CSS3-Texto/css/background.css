@@ -1,0 +1,74 @@
+body{
+	font-size: 16px;
+	background-image: url(../img/tomorrow.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+p.palabraclave{
+	font-size: 4em;
+	width: 800px;
+	border: 1px solid red;
+	margin: 10px auto;
+	text-align: center;
+	padding: 10px;
+	color: #ffffff;
+	background-color: #26ad5e47;
+}
+p.palabraclave2{
+	font-size: 4em;
+	width: 800px;
+	height: 200px;
+	border: 1px solid red;
+	margin: 10px auto;
+	text-align: center;
+	padding: 10px;
+	color: #ffffff;
+	background-image: url(../img/aomine.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: top;
+	background-size: cover;
+}
+p.palabraclave3{
+	font-size: 3em;
+	width: 800px;
+	border: 20px dashed red;
+	margin: 10px auto;
+	text-align: center;
+	padding: 10px;
+	color: #000;
+	background-image: url(../img/aomine.png);
+	background-size: 200px 150px;
+	background-position: 20px 0;
+	background-clip: padding-box;
+	
+}
+p.palabraclave3-1{
+	font-size: 4em;
+	width: 800px;
+	height: 400px;
+	border: 1px solid red;
+	margin: 10px auto;
+	text-align: center;
+	padding: 10px;
+	color: #000;
+	background-color: #ffffff8c;
+	background-image: url(../img/tigre.png);
+	background-repeat: no-repeat;
+	background-position: 635px 5px;
+	background-size: 110px 100px;
+}
+p.palabraclave4{
+	font-size: 4em;
+	width: 800px;
+	height: 300px;
+	border: 1px solid red;
+	margin: 10px auto;
+	text-align: center;
+	padding: 10px;
+	color: #ffffff;
+	background-image: url(../img/bleach.jpg);
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: cover;
+}

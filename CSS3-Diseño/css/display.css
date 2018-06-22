@@ -1,0 +1,14 @@
+body :nth-child(1){
+	background-color: red;
+} 
+body :nth-child(2){
+	background-color: blue;
+} 
+p{
+	display: inline;
+}
+a{
+	display: block;
+	width: 200px;
+	margin: 40px;
+}

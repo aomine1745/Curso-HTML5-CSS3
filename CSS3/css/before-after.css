@@ -1,0 +1,54 @@
+article {
+	width: 500px;
+	padding: 30px;
+	margin: 50px auto;
+	background: green;
+	position: relative;
+}
+article::before{
+	content: "";
+	background: red;
+	display: block;
+	width: 100%;
+	height: 100%;
+	transform: rotate(6deg);
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+article::after{
+	content: "";
+	background: orange;
+	display: block;
+	width: 100%;
+	height: 100%;
+	transform: rotate(-6deg);
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+div{
+	width: 500px;
+	padding: 50px;
+	margin: 60px auto;
+	border: 1px solid red;
+	position: relative;
+	background: #DEDEDE;
+}
+div h4{
+	margin: 0 0 5px 0;
+}
+div::before{
+	content: url(../img/inicio.png);
+	position: absolute;
+	left:5px;
+	top: 30px;
+}
+div::after{
+	content: url(../img/cerrar.png);
+	position: absolute;
+	right: 5px;
+	bottom: 25px;
+}

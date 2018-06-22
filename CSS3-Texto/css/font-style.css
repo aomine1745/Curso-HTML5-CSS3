@@ -1,0 +1,10 @@
+p.italica{
+	font-style: italic;
+	font-weight: normal;
+}
+p span{
+	font-style: normal;
+}
+p{
+	font-weight: bold;
+}

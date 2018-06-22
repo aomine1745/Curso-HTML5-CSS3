@@ -1,0 +1,35 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	font-size: 16px;
+}
+nav{
+	float: left;
+	width: 20%;
+	background: green;
+}
+.contenedor{
+	width: 600px;
+	margin: 0 auto;
+	background: gray;
+	padding: 10px;
+}
+header{
+	background: red;
+}
+.contenido{
+	float: left;
+	background: orange;
+	width: 60%;
+	padding: 10px;
+}
+aside{
+	float: left;
+	background: blue;
+	width: 20%;
+}
+footer{
+	background: pink;
+	clear: both;
+}

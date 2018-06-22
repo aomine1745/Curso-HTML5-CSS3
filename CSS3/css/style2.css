@@ -1,0 +1,6 @@
+nav ul li:first-child{
+	background: red;
+}
+article p:last-child{
+	background: green;
+}

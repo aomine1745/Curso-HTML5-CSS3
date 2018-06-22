@@ -1,0 +1,20 @@
+body{
+	background-image: url(../img/tomorrow.jpg);
+	background-size: cover;
+	background-attachment: fixed; 
+}
+h1{
+	font-size: 50px;
+	background-color: #fff;
+	text-transform: uppercase;
+	color: gray;
+	text-align: center;
+	text-shadow: 0px 1px 0px #999,
+	0px 2px 0px #888,
+	1px 3px 0px #777,
+	1px 4px 0px #666,
+	1px 5px 0px #555,
+	1px 1px 6px #444,
+	1px 1px 7px #333,
+	0px 8px 7px #001135;
+}

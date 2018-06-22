@@ -1,0 +1,28 @@
+section{
+	width: 800px;
+	margin:0 auto;
+	background: gray;
+}
+section img{
+	float: right;
+	margin-right: 10px;
+}
+section.prueba-2{
+	width: 800px;
+	margin:0 auto;
+	background: gray;
+	padding: 10px;
+	overflow: hidden;
+}
+section div.caja1{
+	background: red;
+	height: 100px;
+	width: 50%;
+	float: right;
+}
+section div.caja2{
+	background: pink;
+	height: 100px;
+	float: left;
+	width: 50%;
+}

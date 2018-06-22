@@ -1,0 +1,84 @@
+.uno{
+	color: red;
+}
+.uno[title]{
+	color: green;
+}
+section p[id]{
+	color: blue;
+}
+section p[title="secundario"]{
+	color: #16C4D4;
+}
+main article[class*="post"]{
+	background: green;
+	color: white;
+	font-style: italic;
+}
+p a[href^="http://"]{
+	background: red;
+	color: black;
+}
+p a[href$=".es"]{
+	background: red;
+	color: white;
+}
+[Title~="Titulo"]{
+	background: red;
+}
+a:link{
+	background: red;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	border: 2px solid green;
+}
+a:visited{
+	background: gray;
+	color: white;
+	border-color: red;
+	outline-color: blue;
+}
+a:hover{
+	color: black;
+	text-decoration: none;
+	font-size: 30px;
+	background: red;
+}
+a:active{
+	font-style: italic;
+	background: orange;
+}
+a:focus{
+	background: #F405E0;
+	border: 2px solid #black;
+	color: orange;
+}
+input[type="submit"]{
+	background: #2024D3;
+	color: white;
+	font-size: 16px;
+	border: 1px solid black;
+	padding: 5px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+input[type="submit"]:hover{
+	background: #08CB03;
+	color: black;
+}
+input[type="submit"][value="xd"]:hover{
+	background: #08CB03;
+	color: black;
+}
+input[type="submit"][value="xd"]{
+	background: green;
+}
+input[type="submit"]:active{
+	font-style: italic;
+	background: orange;
+}
+input:focus{
+	font-style: italic;
+	background: orange;
+}

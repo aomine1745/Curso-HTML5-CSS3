@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Formulario</title>
+</head>
+<body>
+	<h1>Etiquetas de Formulario</h1>
+	<form action="index.html" method="post">
+		<p></br>
+			<label for="nombre">Ingrese su nombre: </label></br>
+ 			<input type="text" name="nombre" id="nombre" size="30" maxlength="20" placeholder="Ingrese su nombre" autofocus required>
+		</p>
+		<p>
+			<label for="contrasena">Ingrese su contraseña: </label> </br>
+			<input type="password" name="contrasena" id="contrasena" size="30" maxlength="20" placeholder="ingrese su contraseña">
+		</p>
+		<h4> Indique su género</h4>
+		<p>
+			<input type="radio" name="genero" value="Hombre" id="genero-masculino">
+			<label for="genero-masculino">Hombre</label>
+			<input type="radio" name="genero" value="Mujer" id="genero-femenino" checked>
+			<label for="genero-femenino">Mujer</label>
+		</p>
+		<h4>Dias Disponibles</h4>
+		<p>
+			<input type="checkbox" name="dias" value="Lunes" id="Lunes">
+			<label for="Lunes">Lunes</label>
+			<input type="checkbox" name="dias" value="Martes" id="Martes">
+			<label for="Martes">Martes</label>
+			<input type="checkbox" name="dias" value="Miercoles" id="Miercoles">
+			<label for="Miercoles">Miercoles</label>
+			<input type="checkbox" name="dias" value="Jueves" id="Jueves">
+			<label for="Jueves">Jueves</label>
+			<input type="checkbox" name="dias" value="Viernes" id="Viernes">
+			<label for="Viernes">Viernes</label>
+		</p>
+		<p>
+			<label for="url"> Ingrese su web</label>
+			<input type="url" name="url" id="url" required placeholder="http:www.google.com">
+		</p>
+		<p>
+			<label for="tuemail"> Tu email</label>
+			<input type="email" name="tuemail" id="tuemail" required>
+		</p>
+		<p>
+			<label for="telefono"> Telefono </label>
+			<input type="tel" name="telefono" id="telefono" required>
+		</p>
+		<p>
+			<label for="cantidad-pro"> Cantidad de Productos</label>
+			<input type="number" name="cantidad-pro" id="cantidad-pro" min="10" max="20" step="1" >
+		</p>
+		<p>
+			<label for="buscar"> Buscar </label>
+			<input type="search" name="buscar" id="buscar" placeholder="Ingrese Su Búsqueda" >
+		</p>
+		<p>
+			<label for="exp"> Experiencia en Informática </label>
+			<input type="range" name="exp" id="exp" min="0" max="10" >
+		</p>
+		<p>
+			<label for="fecha"> Fecha de Nacimiento </label>
+			<input type="date" name="fecha" id="fecha" >
+		</p>
+		<p>
+			<label for="hora"> Horario preferible de entrega </label>
+			<input type="time" name="hora" id="hora" value="12:00:00">
+		</p>
+		<p>
+			<label for="color"> ¿Cual es tu color favorita? </label>
+			<input type="color" name="color" id="color">
+		</p>
+		<p>
+			<label for="bio">Haga su Consulta</label><br>
+			<textarea name="bio" id="bio" cols="30" rows="5"></textarea>
+		</p>
+		<p>
+			<label for="estado">Selecione un estado:</label><br>
+			<select name="estado" id="estado">
+				<option value="viudo">Viudo</option>
+				<option value="casado">Casado</option>
+				<option value="divorciado">Divorciado</option>				
+			</select>
+		</p>
+		<p>
+			<label for="estado">Selecione un estado:</label><br>
+			<select name="estado" id="estado" multiple>
+				<option value="viudo">Viudo</option>
+				<option value="casado">Casado</option>
+				<option value="divorciado">Divorciado</option>				
+			</select>
+		</p>
+		<p>
+			<label for="publicidad">Como nos conocistes?</label><br>
+			<select name="publicidad" id="publicidad">
+				<optgroup label="Online">
+					<option value="redes-sociales">Redes Sociales</option>
+					<option value="motores-busqueda">Motores de Busqeda</option>
+				</optgroup>
+				<optgroup label="Offline">
+					<option value="periodicos">Periodico</option>
+					<option value="panel-publi">Panel ¨Publicitarios</option>
+				</optgroup>
+			</select>
+		</p>
+		<p>
+			<input type="submit" name="" value="Enviar tus datos">
+			<input type="reset" name="" value="Borrar datos">
+		</p>
+	</form>
+</body>
+</html>

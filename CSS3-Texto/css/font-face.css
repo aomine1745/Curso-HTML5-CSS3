@@ -1,0 +1,15 @@
+@font-face{
+	font-family: channel;
+	src: url(../font/Channel.ttf) format('truetype');
+}
+@font-face{
+	font-family: electrical;
+	src: url(../font/electrical.ttf.ttf) format('truetype');
+}
+p.channel{
+	font-family: channel;
+	font-weight: normal;
+}
+p{
+	font-family: electrical;
+}

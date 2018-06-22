@@ -1,0 +1,18 @@
+body{
+	margin:5px;
+}
+.caja{
+	height: 300px;
+	width: 300px;
+	margin: 0 auto;
+	background: linear-gradient(43deg, black,blue 5%, red);
+} 
+.caja2{
+	height: 300px;
+	width: 300px;
+	margin: 20px auto;
+	border-radius: 50%;
+	background: radial-gradient(circle at 65% 20%,
+		#dba0a0 0%,
+		#c00707 50%);
+} 

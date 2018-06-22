@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Progest
+	</title>
+	<script type="text/javascript">
+		function cargalo(){
+			var barra=document.getElementById("barra");
+			barra.value+=1;
+		}
+	</script>
+</head>
+<body>
+	<p>
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus esse illum animi ut incidunt magni beatae dolorem blanditiis, officiis sunt eos facere labore, accusamus. Labore magnadddd dddeleniti id natus incidunt.
+	</p>
+	<p>
+		<progress value="5" max="100" id="barra" ></progress> <br>
+		<input type="button" value="Cargar" onclick="setInterval('cargalo()',10)">
+
+	</p>
+</body>
+</html>
